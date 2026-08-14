@@ -144,8 +144,6 @@ Jazzly/
 │   ├── events/                 # Discord gateway event handlers
 │   ├── handlers/               # Command, event, and component routers
 │   └── utils/                  # Context helpers, duration formatters, lyrics fetcher
-└── test/
-    └── verify.js               # Test validation suite
 ```
 
 ---
