@@ -25,7 +25,7 @@ async function fetchLyrics(title, artist = '') {
     const searchUrl = `https://lrclib.net/api/search?q=${encodeURIComponent(`${artist ? artist + ' ' : ''}${cleanTitle}`)}`;
     const response = await axios.get(searchUrl, {
       timeout: 5000,
-      headers: { 'User-Agent': 'JazzlyMusic/1.0 (https://github.com/Jazzly-Music)' }
+      headers: { 'User-Agent': 'Jazzly/1.0 (https://github.com/DarchiAzaki/Jazzly)' }
     });
 
     if (response.data && response.data.length > 0) {
