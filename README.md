@@ -85,7 +85,7 @@ Jazzly is a self-contained Discord audio bot built on Node.js and **DisTube v5**
 
 ### 1. Clone & Install Dependencies
 ```bash
-git clone https://github.com/Hall-of-Malevolence/Jazzly.git
+git clone https://github.com/DarchiAzaki/Jazzly.git
 cd Jazzly
 npm install --legacy-peer-deps
 ```
