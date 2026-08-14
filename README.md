@@ -93,10 +93,11 @@ npm install --legacy-peer-deps
 ### 2. Configure Environment Variables
 Copy `.env.example` to `.env` and fill in your credentials:
 ```env
-DISCORD_TOKEN=your_bot_token_here
+DISCORD_TOKEN=your_discord_bot_token_here
 CLIENT_ID=your_client_id_here
 MONGO_URI=mongodb+srv://username:password@cluster.mongodb.net/jazzly?retryWrites=true&w=majority
-
+SPOTIFY_CLIENT_ID=
+SPOTIFY_CLIENT_SECRET=
 DEFAULT_PREFIX=!
 DEFAULT_VOLUME=80
 VOTE_SKIP_PERCENT=50
